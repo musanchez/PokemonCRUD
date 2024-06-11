@@ -1,0 +1,19 @@
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 20%; /* Ajusta según la cantidad de tarjetas que desees mostrar */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+}

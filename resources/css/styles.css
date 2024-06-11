@@ -1,0 +1,32 @@
+/* styles.css */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 20%; /* Tamaño de las tarjetas */
+    padding: 0 10px; /* Espacio entre las tarjetas */
+}
+
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px; /* Bordes redondeados para la imagen */
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
